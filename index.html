@@ -1,0 +1,520 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>IPJG</title>
+    <meta
+      name="description"
+      content="Landing page institucional com programações, departamentos, liderança, LGPD e dízimos."
+    />
+    <link rel="icon" type="image/png" href="imagens/favicon.png" />
+    <link rel="apple-touch-icon" href="imagens/logo-ipjg.png" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main>
+      <header class="site-header">
+        <a class="brand" href="#inicio" aria-label="Voltar para o início">
+          <span class="brand-mark">
+            <img src="imagens/logo-ipjg.png" alt="Logo da Igreja Presbiteriana do Jardim da Glória" />
+          </span>
+          <span>
+            <strong>Igreja Presbiteriana do Jardim da Glória</strong>
+          </span>
+        </a>
+
+        <nav class="main-nav" aria-label="Menu principal">
+          <a href="#inicio">Início</a>
+          <a href="#departamentos">Departamentos</a>
+          <a href="#lgpd">LGPD</a>
+          <a href="#programacoes">Programações</a>
+          <a href="#lideranca">Liderança</a>
+          <a href="#contato">Contato</a>
+          <a href="#dizimos">Dízimos e ofertas</a>
+          <a
+            href="https://ipdojardimdagloria.org.br/login"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Login
+          </a>
+        </nav>
+      </header>
+
+      <section id="inicio" class="hero-section">
+        <div class="hero-copy reveal">
+          <p class="eyebrow">Bem-vindo à nossa comunidade</p>
+          <h1>Uma igreja viva para encontrar Deus e caminhar com pessoas.</h1>
+          <p class="hero-text">
+            Um espaço de fé, acolhimento e serviço para quem deseja crescer em
+            comunhão, participar das programações e conhecer melhor a vida da
+            igreja.
+          </p>
+          <div class="hero-actions">
+            <a class="primary-button" href="#programacoes">Ver próximos encontros</a>
+            <a class="secondary-button" href="#departamentos">Explorar departamentos</a>
+          </div>
+        </div>
+
+        <div class="hero-visual reveal" aria-label="Imagem institucional de uma igreja">
+          <div class="hero-photo"></div>
+        </div>
+      </section>
+
+      <section class="intro-band" aria-label="Resumo da igreja">
+        <article class="metric-card">
+          <span>01</span>
+          <h2>Culto e palavra</h2>
+          <p>Encontros semanais com adoração, ensino bíblico e comunhão.</p>
+        </article>
+        <article class="metric-card">
+          <span>02</span>
+          <h2>Cuidado pastoral</h2>
+          <p>Uma comunidade presente para orar, aconselhar e acompanhar.</p>
+        </article>
+        <article class="metric-card">
+          <span>03</span>
+          <h2>Serviço ao próximo</h2>
+          <p>Departamentos e projetos que colocam a fé em movimento.</p>
+        </article>
+      </section>
+
+      <section class="photo-story" aria-label="Fotos da igreja">
+        <figure class="story-card story-large">
+          <img src="imagens/salao.jpg" alt="Igreja reunida durante o culto" />
+          <figcaption>Uma comunidade reunida em adoração.</figcaption>
+        </figure>
+        <figure class="story-card">
+          <img src="imagens/biblia.jpg" alt="Bíblia aberta sobre a mesa da igreja" />
+          <figcaption>Palavra, comunhão e cuidado no centro da caminhada.</figcaption>
+        </figure>
+      </section>
+
+      <section id="departamentos" class="content-section blue-section">
+        <div class="section-heading">
+          <p class="eyebrow">Departamentos</p>
+          <h2>Encontre um lugar para pertencer, servir e amadurecer.</h2>
+        </div>
+        <div class="department-carousel">
+          <div class="carousel-actions" aria-label="Controles do carrossel de departamentos">
+            <button class="carousel-button" type="button" data-carousel-prev aria-label="Departamento anterior">
+              ‹
+            </button>
+            <button class="carousel-button" type="button" data-carousel-next aria-label="Próximo departamento">
+              ›
+            </button>
+          </div>
+
+          <div class="department-track" data-department-track tabindex="0" aria-label="Departamentos da igreja">
+            <article class="department-card department-photo-card department-saf">
+              <img src="imagens/departamento-saf.jpg" alt="Mulheres da SAF reunidas na igreja" />
+              <h3>SAF</h3>
+              <p>
+                A <strong>Sociedade Auxiliadora Feminina</strong> é o ministério
+                oficial das mulheres na IPB, criado para organizar a atuação
+                feminina na evangelização, oração e assistência social.
+              </p>
+            </article>
+
+            <article class="department-card department-photo-card department-ucp">
+              <img src="imagens/criancas.jpg" alt="Crianças da UCP reunidas na igreja" />
+              <h3>UCP</h3>
+              <p>
+                <strong>União de Crianças Presbiterianas</strong> une crianças
+                de 6 a 11 anos, ajudando-as a crescer espiritual, moral,
+                intelectual e socialmente.
+              </p>
+            </article>
+
+            <article class="department-card department-photo-card department-upa">
+              <img src="imagens/upa.jpg" alt="Adolescentes da UPA reunidos em comunhão" />
+              <h3>UPA</h3>
+              <p>
+                <strong>União Presbiteriana de Adolescentes</strong>, grupo para
+                garotos e garotas de 12 a 18 anos, com comunhão, Bíblia,
+                crescimento na fé, reuniões e gincanas.
+              </p>
+            </article>
+
+            <article class="department-card">
+              <div class="department-photo-placeholder" aria-hidden="true">U</div>
+              <h3>UMP</h3>
+              <p>
+                <strong>União de Mocidade Presbiteriana</strong> reúne jovens
+                entre 18 e 35 anos para cuidado, comunhão e serviço na igreja
+                local.
+              </p>
+            </article>
+
+            <article class="department-card department-photo-card department-casais">
+              <img src="imagens/casais.jpeg" alt="Casais da igreja reunidos em comunhão" />
+              <h3>Casais</h3>
+              <p>
+                Fortalecimento matrimonial, edificação de famílias, estudos,
+                encontros especiais e aconselhamento pastoral.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="lgpd" class="content-section split-section lgpd-section">
+        <div class="section-heading">
+          <p class="eyebrow">LGPD</p>
+          <h2>Transparência e respeito no cuidado com dados pessoais.</h2>
+        </div>
+        <div class="info-panel">
+          <p>
+            Esta área pode apresentar a política de privacidade, a finalidade de
+            uso dos dados e o canal de contato para solicitações relacionadas à
+            proteção de dados. Qualquer pedido ou dúvida entrar em contato.
+          </p>
+        </div>
+      </section>
+
+      <section id="programacoes" class="content-section schedule-section">
+        <div class="section-heading">
+          <p class="eyebrow">Programações</p>
+          <h2>Escolha um encontro e venha caminhar com a gente.</h2>
+        </div>
+        <figure class="program-photo">
+          <img src="imagens/pulpito.jpg" alt="Púlpito com Bíblia aberta visto do salão da igreja" />
+        </figure>
+        <div class="schedule-list">
+          <article class="schedule-item">
+            <span>Domingo</span>
+            <h3>Culto matutino</h3>
+            <strong>09:30</strong>
+          </article>
+          <article class="schedule-item">
+            <span>Domingo</span>
+            <h3>Escola Dominical</h3>
+            <strong>10:50</strong>
+          </article>
+          <article class="schedule-item">
+            <span>Domingo</span>
+            <h3>Culto vespertino</h3>
+            <strong>18:00</strong>
+          </article>
+          <article class="schedule-item">
+            <span>Quarta-feira</span>
+            <h3>Estudo</h3>
+            <strong>20:00</strong>
+          </article>
+          <article class="schedule-item">
+            <span>Sexta-feira</span>
+            <h3>PG - Pequeno Grupo</h3>
+            <strong>20:00</strong>
+          </article>
+        </div>
+      </section>
+
+      <section id="lideranca" class="content-section leadership-section">
+        <div class="section-heading">
+          <p class="eyebrow">Liderança</p>
+          <h2>Líderes que acompanham a igreja com zelo e responsabilidade.</h2>
+        </div>
+
+        <div class="leadership-layout">
+          <article class="pastor-card">
+            <div class="pastor-photo-placeholder">
+              <img src="imagens/pastor.jpg" alt="Foto do Rev. André Silvério" />
+            </div>
+            <div>
+              <span class="leader-label">Pastor</span>
+              <h3>Rev. André Silvério</h3>
+              <p>
+                Responsável pela direção pastoral, ensino, cuidado espiritual e
+                acompanhamento da igreja.
+              </p>
+            </div>
+          </article>
+
+          <article class="pastor-curriculum" aria-label="Currículo pastoral do Rev. André Silvério">
+            <span class="leader-label">Currículo pastoral</span>
+            <div class="curriculum-columns">
+              <p>
+                André Silvério é doutorando em Ministério pelo Reformed
+                Theological Seminary/CPAJ. É mestre em Teologia Pastoral pelo
+                CPAJ, com concentração em Pregação Expositiva.
+              </p>
+              <p>
+                É bacharel em Teologia pela Universidade Presbiteriana Mackenzie
+                e pelo Seminário Presbiteriano Rev. José Manoel da Conceição.
+                Também é professor de pregação reformada expositiva no Seminário
+                Teológico Presbiteriano Rev. José Manoel da Conceição (JMC), em
+                São Paulo.
+              </p>
+              <p>
+                É pastor da Igreja Presbiteriana do Brasil há 21 anos.
+                Atualmente, pastoreia a Igreja Presbiteriana do Jardim da
+                Glória.
+              </p>
+              <p>
+                É casado com Michele há 21 anos e pai de três filhos. Entre suas
+                grandes paixões estão o ensino da pregação expositiva e o
+                discipulado de casais e famílias.
+              </p>
+              <p>
+                Ele tem viajado para vários lugares do Brasil pregando e
+                palestrando nessas áreas.
+              </p>
+            </div>
+          </article>
+
+          <article class="leader-list-card">
+            <span class="leader-label">Presbíteros</span>
+            <ul>
+              <li>Douglas Guedes</li>
+              <li>Luiz Caetano</li>
+              <li>Luiz Carlos Matias</li>
+              <li>Rodrigo Carrijo</li>
+            </ul>
+          </article>
+
+          <article class="leader-list-card">
+            <span class="leader-label">Diáconos</span>
+            <ul>
+              <li>Guilherme Molin</li>
+              <li>Israel Souto</li>
+              <li>Luciano Costa</li>
+              <li>Matheus Backa</li>
+              <li>Ronaldo Heitor</li>
+            </ul>
+          </article>
+        </div>
+      </section>
+
+      <section id="dizimos" class="content-section split-section">
+        <div class="section-heading">
+          <p class="eyebrow">Dízimos e ofertas</p>
+          <h2>Generosidade que sustenta cuidado, missão e serviço.</h2>
+          <p class="section-text">
+            Você pode contribuir usando os dados bancários da igreja ou a chave
+            Pix abaixo. Confira os dados antes de finalizar a transferência.
+          </p>
+        </div>
+        <div class="contribution-panel">
+          <div class="bank-details">
+            <div class="detail-row">
+              <span>Banco</span>
+              <strong>Itaú</strong>
+            </div>
+            <div class="detail-row">
+              <span>Agência</span>
+              <strong>0174</strong>
+            </div>
+            <div class="detail-row">
+              <span>Conta corrente</span>
+              <strong>20918-9</strong>
+            </div>
+            <button
+              class="pix-key"
+              type="button"
+              data-copy-pix
+              data-pix-key="50.998.434/0001-09"
+              aria-label="Copiar chave Pix 50.998.434/0001-09"
+            >
+              <span>Chave Pix</span>
+              <strong>50.998.434/0001-09</strong>
+              <small data-copy-feedback>Clique para copiar</small>
+            </button>
+          </div>
+
+          <div class="qr-card">
+            <img
+              src="imagens/qrcode-pix.png"
+              alt="QR Code Pix para dízimos e ofertas da igreja"
+            />
+            <p>Aponte a câmera do celular para contribuir por Pix.</p>
+          </div>
+        </div>
+      </section>
+
+      <section id="contato" class="contact-section" aria-label="Canais de contato e redes sociais">
+        <div class="section-heading">
+          <p class="eyebrow">Contato</p>
+          <h2>Acompanhe a igreja nas redes e fale conosco.</h2>
+        </div>
+
+        <div class="social-grid">
+          <a
+            class="social-card"
+            href="https://www.instagram.com/ipdojardimdagloria/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <span class="social-icon instagram-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" role="img">
+                <rect x="5" y="5" width="14" height="14" rx="4"></rect>
+                <circle cx="12" cy="12" r="3.2"></circle>
+                <circle cx="16.4" cy="7.7" r="1"></circle>
+              </svg>
+            </span>
+            <span>
+              <strong>Instagram</strong>
+              <small>@ipdojardimdagloria</small>
+            </span>
+          </a>
+
+          <a
+            class="social-card"
+            href="https://www.youtube.com/@IPdoJardimdaGloria"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <span class="social-icon youtube-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" role="img">
+                <rect x="3.8" y="6.8" width="16.4" height="10.4" rx="3"></rect>
+                <path d="M10.5 9.2v5.6l4.8-2.8z"></path>
+              </svg>
+            </span>
+            <span>
+              <strong>YouTube</strong>
+              <small>@IPdoJardimdaGloria</small>
+            </span>
+          </a>
+
+          <a
+            class="social-card"
+            href="https://www.facebook.com/IPdoJardimDaGloria"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <span class="social-icon facebook-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" role="img">
+                <path d="M14 8.2h2.1V5.1c-.4-.1-1.7-.2-3.2-.2-3.1 0-5.2 1.9-5.2 5.4v3H4.4v3.5h3.3V24h4v-7.2h3.3l.5-3.5h-3.8v-2.6c0-1 .3-2.5 2.3-2.5z"></path>
+              </svg>
+            </span>
+            <span>
+              <strong>Facebook</strong>
+              <small>IPdoJardimDaGloria</small>
+            </span>
+          </a>
+
+          <a
+            class="social-card"
+            href="https://wa.me/551155496215"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <span class="social-icon whatsapp-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" role="img">
+                <path d="M5.2 18.8 6 15.7A7.5 7.5 0 1 1 9.1 18l-3.9.8z"></path>
+                <path d="M9.3 8.7c.2-.4.4-.4.7-.4h.5c.2 0 .4 0 .5.4l.8 1.8c.1.3.1.5-.1.7l-.5.6c.7 1.1 1.5 1.9 2.8 2.5l.7-.8c.2-.2.4-.3.7-.2l1.8.8c.3.1.4.3.4.6v.5c0 .4-.2.6-.5.8-.6.4-1.4.6-2.3.5-2.8-.4-5.7-3-6.4-5.7-.2-.8 0-1.6.4-2.1z"></path>
+              </svg>
+            </span>
+            <span>
+              <strong>WhatsApp</strong>
+              <small>(11) 5549-6215</small>
+            </span>
+          </a>
+        </div>
+      </section>
+
+      <footer class="site-footer">
+        <div class="footer-content">
+          <strong>Igreja Presbiteriana do Jardim da Glória</strong>
+          <a
+            class="address-link"
+            href="https://www.google.com/maps/search/?api=1&query=Avenida%20Lacerda%20Franco%2C%201474%2C%20Cambuci%2C%20S%C3%A3o%20Paulo%20-%20SP"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Avenida Lacerda Franco, 1474, Cambuci - São Paulo - SP
+          </a>
+          <div class="map-frame" aria-label="Mapa com a localização da igreja">
+            <iframe
+              title="Mapa da Igreja Presbiteriana do Jardim da Glória"
+              src="https://www.google.com/maps?q=Avenida%20Lacerda%20Franco%2C%201474%2C%20Cambuci%2C%20S%C3%A3o%20Paulo%20-%20SP&output=embed"
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
+          </div>
+        </div>
+        <a href="#inicio">Voltar ao início</a>
+      </footer>
+    </main>
+    <script>
+      const departmentTrack = document.querySelector("[data-department-track]");
+      const previousDepartmentButton = document.querySelector("[data-carousel-prev]");
+      const nextDepartmentButton = document.querySelector("[data-carousel-next]");
+      const pixCopyButton = document.querySelector("[data-copy-pix]");
+      const pixCopyFeedback = document.querySelector("[data-copy-feedback]");
+
+      function scrollDepartments(direction) {
+        if (!departmentTrack) return;
+
+        const firstCard = departmentTrack.querySelector(".department-card");
+        const cardWidth = firstCard ? firstCard.offsetWidth : 320;
+        departmentTrack.scrollBy({
+          left: direction * (cardWidth + 18),
+          behavior: "smooth",
+        });
+      }
+
+      if (previousDepartmentButton) {
+        previousDepartmentButton.addEventListener("click", function () {
+          scrollDepartments(-1);
+        });
+      }
+
+      if (nextDepartmentButton) {
+        nextDepartmentButton.addEventListener("click", function () {
+          scrollDepartments(1);
+        });
+      }
+
+      function setPixFeedback(message) {
+        if (!pixCopyFeedback) return;
+
+        pixCopyFeedback.textContent = message;
+        window.clearTimeout(pixCopyFeedback.timeoutId);
+        pixCopyFeedback.timeoutId = window.setTimeout(function () {
+          pixCopyFeedback.textContent = "Clique para copiar";
+        }, 2200);
+      }
+
+      function copyPixKey() {
+        if (!pixCopyButton) return;
+
+        const pixKey = pixCopyButton.getAttribute("data-pix-key");
+        if (!pixKey) return;
+
+        if (navigator.clipboard && window.isSecureContext) {
+          navigator.clipboard
+            .writeText(pixKey)
+            .then(function () {
+              setPixFeedback("Chave copiada");
+            })
+            .catch(function () {
+              setPixFeedback("Não foi possível copiar");
+            });
+          return;
+        }
+
+        const temporaryInput = document.createElement("textarea");
+        temporaryInput.value = pixKey;
+        temporaryInput.setAttribute("readonly", "");
+        temporaryInput.style.position = "fixed";
+        temporaryInput.style.left = "-9999px";
+        document.body.appendChild(temporaryInput);
+        temporaryInput.select();
+
+        try {
+          document.execCommand("copy");
+          setPixFeedback("Chave copiada");
+        } catch (error) {
+          setPixFeedback("Não foi possível copiar");
+        }
+
+        document.body.removeChild(temporaryInput);
+      }
+
+      if (pixCopyButton) {
+        pixCopyButton.addEventListener("click", copyPixKey);
+      }
+    </script>
+  </body>
+</html>
